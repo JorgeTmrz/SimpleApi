@@ -17,9 +17,9 @@ namespace SimpleApi.Controllers
         };
 
         [HttpGet]
-        public int Get()
+        public string Get()
         {
-            return(1);
+            return("Jorge Tamariz");
 
             /*var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
